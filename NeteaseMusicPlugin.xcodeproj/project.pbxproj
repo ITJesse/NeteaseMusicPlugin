@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		485ED8151EBAB91F00715DF4 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 485ED8141EBAB91F00715DF4 /* Helper.m */; };
 		48A34BEF1EBA78C70033F0BB /* NeteaseMusicPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A34BE51EBA78C70033F0BB /* NeteaseMusicPlugin.framework */; };
 		48A34BF41EBA78C70033F0BB /* NeteaseMusicPluginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A34BF31EBA78C70033F0BB /* NeteaseMusicPluginTests.m */; };
 		48A34BF61EBA78C70033F0BB /* NeteaseMusicPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A34BE81EBA78C70033F0BB /* NeteaseMusicPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48A34C011EBA7A460033F0BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A34C001EBA7A460033F0BB /* main.m */; };
+		48A34C031EBA7BB20033F0BB /* NeteaseMusicPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A34C021EBA7BB20033F0BB /* NeteaseMusicPlugin.m */; };
+		68CB1756BBEEF4630727B799 /* libPods-NeteaseMusicPluginTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C2D65E7815193722B96669 /* libPods-NeteaseMusicPluginTests.a */; };
+		6F8CC4736DF7698A71AB45E9 /* libPods-NeteaseMusicPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A50AE1BE5E4B84C87BCAAFE6 /* libPods-NeteaseMusicPlugin.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +28,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051C3FA8D5D6739312D56863 /* Pods-NeteaseMusicPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeteaseMusicPlugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeteaseMusicPlugin/Pods-NeteaseMusicPlugin.release.xcconfig"; sourceTree = "<group>"; };
+		485ED8141EBAB91F00715DF4 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		485ED8161EBAB92800715DF4 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
 		48A34BE51EBA78C70033F0BB /* NeteaseMusicPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NeteaseMusicPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A34BE81EBA78C70033F0BB /* NeteaseMusicPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeteaseMusicPlugin.h; sourceTree = "<group>"; };
 		48A34BE91EBA78C70033F0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48A34BEE1EBA78C70033F0BB /* NeteaseMusicPluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeteaseMusicPluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A34BF31EBA78C70033F0BB /* NeteaseMusicPluginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeteaseMusicPluginTests.m; sourceTree = "<group>"; };
 		48A34BF51EBA78C70033F0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A34C001EBA7A460033F0BB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48A34C021EBA7BB20033F0BB /* NeteaseMusicPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeteaseMusicPlugin.m; sourceTree = "<group>"; };
+		6481E8A628765F7F4D9F94F3 /* Pods-NeteaseMusicPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeteaseMusicPlugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeteaseMusicPlugin/Pods-NeteaseMusicPlugin.debug.xcconfig"; sourceTree = "<group>"; };
+		A50AE1BE5E4B84C87BCAAFE6 /* libPods-NeteaseMusicPlugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NeteaseMusicPlugin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C2D65E7815193722B96669 /* libPods-NeteaseMusicPluginTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NeteaseMusicPluginTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C766324C5BBFE2D6980819D3 /* Pods-NeteaseMusicPluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeteaseMusicPluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeteaseMusicPluginTests/Pods-NeteaseMusicPluginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F02F6D89FB6437EFBFD25B00 /* Pods-NeteaseMusicPluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeteaseMusicPluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeteaseMusicPluginTests/Pods-NeteaseMusicPluginTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8CC4736DF7698A71AB45E9 /* libPods-NeteaseMusicPlugin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +60,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				48A34BEF1EBA78C70033F0BB /* NeteaseMusicPlugin.framework in Frameworks */,
+				68CB1756BBEEF4630727B799 /* libPods-NeteaseMusicPluginTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		485ED8131EBAB90600715DF4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				485ED8141EBAB91F00715DF4 /* Helper.m */,
+				485ED8161EBAB92800715DF4 /* Helper.h */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		48A34BDB1EBA78C70033F0BB = {
 			isa = PBXGroup;
 			children = (
 				48A34BE71EBA78C70033F0BB /* NeteaseMusicPlugin */,
 				48A34BF21EBA78C70033F0BB /* NeteaseMusicPluginTests */,
 				48A34BE61EBA78C70033F0BB /* Products */,
+				6D320AB6250D1DAFEE643B61 /* Pods */,
+				6E8B33BC014C60F0E5DB1CAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +99,11 @@
 		48A34BE71EBA78C70033F0BB /* NeteaseMusicPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				485ED8131EBAB90600715DF4 /* Util */,
 				48A34BE81EBA78C70033F0BB /* NeteaseMusicPlugin.h */,
 				48A34BE91EBA78C70033F0BB /* Info.plist */,
+				48A34C001EBA7A460033F0BB /* main.m */,
+				48A34C021EBA7BB20033F0BB /* NeteaseMusicPlugin.m */,
 			);
 			path = NeteaseMusicPlugin;
 			sourceTree = "<group>";
@@ -84,6 +115,26 @@
 				48A34BF51EBA78C70033F0BB /* Info.plist */,
 			);
 			path = NeteaseMusicPluginTests;
+			sourceTree = "<group>";
+		};
+		6D320AB6250D1DAFEE643B61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6481E8A628765F7F4D9F94F3 /* Pods-NeteaseMusicPlugin.debug.xcconfig */,
+				051C3FA8D5D6739312D56863 /* Pods-NeteaseMusicPlugin.release.xcconfig */,
+				C766324C5BBFE2D6980819D3 /* Pods-NeteaseMusicPluginTests.debug.xcconfig */,
+				F02F6D89FB6437EFBFD25B00 /* Pods-NeteaseMusicPluginTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E8B33BC014C60F0E5DB1CAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A50AE1BE5E4B84C87BCAAFE6 /* libPods-NeteaseMusicPlugin.a */,
+				B5C2D65E7815193722B96669 /* libPods-NeteaseMusicPluginTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +155,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48A34BF91EBA78C70033F0BB /* Build configuration list for PBXNativeTarget "NeteaseMusicPlugin" */;
 			buildPhases = (
+				ED67B6AEF668AEABC893E71A /* [CP] Check Pods Manifest.lock */,
 				48A34BE01EBA78C70033F0BB /* Sources */,
 				48A34BE11EBA78C70033F0BB /* Frameworks */,
 				48A34BE21EBA78C70033F0BB /* Headers */,
 				48A34BE31EBA78C70033F0BB /* Resources */,
+				48A34BFF1EBA79240033F0BB /* ShellScript */,
+				FDE5C8E0FE5E3DBC4BA34A6F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48A34BFC1EBA78C70033F0BB /* Build configuration list for PBXNativeTarget "NeteaseMusicPluginTests" */;
 			buildPhases = (
+				A514A9FCDD20A4102D3433CC /* [CP] Check Pods Manifest.lock */,
 				48A34BEA1EBA78C70033F0BB /* Sources */,
 				48A34BEB1EBA78C70033F0BB /* Frameworks */,
 				48A34BEC1EBA78C70033F0BB /* Resources */,
+				F0FA2142E8DD68E02EC74C9B /* [CP] Embed Pods Frameworks */,
+				B15FE8936ACDFA62432A3537 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,11 +249,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48A34BFF1EBA79240033F0BB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n# 要注入的的app\napp_name=\"NeteaseMusic\"\n# 此framework名字\nframework_name=\"NeteaseMusicPlugin\"\napp_bundle_path=\"/Applications/${app_name}.app/Contents/MacOS\"\napp_executable_path=\"${app_bundle_path}/${app_name}\"\napp_executable_backup_path=\"${app_executable_path}_backup\"\nframework_path=\"${app_bundle_path}/${framework_name}.framework\"\n# 备份WeChat原始可执行文件\nif [ ! -f \"$app_executable_backup_path\" ]\nthen\ncp \"$app_executable_path\" \"$app_executable_backup_path\"\nfi\ncp -r \"${BUILT_PRODUCTS_DIR}/${framework_name}.framework\" ${app_bundle_path}\n# 注入动态库\n/Users/Jesse/.bin/insert_dylib --all-yes \"${framework_path}/${framework_name}\" \"$app_executable_backup_path\" \"$app_executable_path\"";
+		};
+		A514A9FCDD20A4102D3433CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B15FE8936ACDFA62432A3537 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeteaseMusicPluginTests/Pods-NeteaseMusicPluginTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED67B6AEF668AEABC893E71A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0FA2142E8DD68E02EC74C9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeteaseMusicPluginTests/Pods-NeteaseMusicPluginTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE5C8E0FE5E3DBC4BA34A6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeteaseMusicPlugin/Pods-NeteaseMusicPlugin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		48A34BE01EBA78C70033F0BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48A34C031EBA7BB20033F0BB /* NeteaseMusicPlugin.m in Sources */,
+				485ED8151EBAB91F00715DF4 /* Helper.m in Sources */,
+				48A34C011EBA7A460033F0BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +467,7 @@
 		};
 		48A34BFA1EBA78C70033F0BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6481E8A628765F7F4D9F94F3 /* Pods-NeteaseMusicPlugin.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -328,6 +480,7 @@
 				INFOPLIST_FILE = NeteaseMusicPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.itjesse.NeteaseMusicPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -336,6 +489,7 @@
 		};
 		48A34BFB1EBA78C70033F0BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051C3FA8D5D6739312D56863 /* Pods-NeteaseMusicPlugin.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -356,6 +510,7 @@
 		};
 		48A34BFD1EBA78C70033F0BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C766324C5BBFE2D6980819D3 /* Pods-NeteaseMusicPluginTests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9975VG746Y;
@@ -368,6 +523,7 @@
 		};
 		48A34BFE1EBA78C70033F0BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F02F6D89FB6437EFBFD25B00 /* Pods-NeteaseMusicPluginTests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9975VG746Y;
@@ -397,6 +553,7 @@
 				48A34BFB1EBA78C70033F0BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48A34BFC1EBA78C70033F0BB /* Build configuration list for PBXNativeTarget "NeteaseMusicPluginTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +562,7 @@
 				48A34BFE1EBA78C70033F0BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

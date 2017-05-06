@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "48A34BE41EBA78C70033F0BB"
+               BuildableName = "NeteaseMusicPlugin.framework"
+               BlueprintName = "NeteaseMusicPlugin"
+               ReferencedContainer = "container:NeteaseMusicPlugin.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "48A34BED1EBA78C70033F0BB"
+               BuildableName = "NeteaseMusicPluginTests.xctest"
+               BlueprintName = "NeteaseMusicPluginTests"
+               ReferencedContainer = "container:NeteaseMusicPlugin.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "48A34BE41EBA78C70033F0BB"
+            BuildableName = "NeteaseMusicPlugin.framework"
+            BlueprintName = "NeteaseMusicPlugin"
+            ReferencedContainer = "container:NeteaseMusicPlugin.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +61,19 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <PathRunnable
+         runnableDebuggingMode = "0"
+         FilePath = "/Applications/NeteaseMusic.app">
+      </PathRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "48A34BE41EBA78C70033F0BB"
+            BuildableName = "NeteaseMusicPlugin.framework"
+            BlueprintName = "NeteaseMusicPlugin"
+            ReferencedContainer = "container:NeteaseMusicPlugin.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +83,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "48A34BE41EBA78C70033F0BB"
+            BuildableName = "NeteaseMusicPlugin.framework"
+            BlueprintName = "NeteaseMusicPlugin"
+            ReferencedContainer = "container:NeteaseMusicPlugin.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
