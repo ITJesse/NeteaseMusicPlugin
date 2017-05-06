@@ -8,6 +8,8 @@
 
 #import <NeteaseMusicPlugin.h>
 
+NSString *apiServer = @"http://127.0.0.1:8123";
+
 @implementation SongModel
 @end
 
@@ -44,7 +46,7 @@
     
     if ([songArr[0] code] != 200) {
         NSLog(@"\nSong is null, send to api server");
-        NSString *urlStr = @"http://127.0.0.1:8123/api/plugin";
+        NSString *urlStr = [NSString stringWithFormat:@"%@/api/plugin", apiServer];
         NSURL *url = [[NSURL alloc] initWithString:urlStr];
         NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:15];
         [request setHTTPMethod:@"POST"];
