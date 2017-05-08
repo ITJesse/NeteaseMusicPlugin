@@ -8,7 +8,7 @@ A plugin for Netease Music macOS client which forward dead music request to [Unb
 
 # How to use
 
-> Tested on 1.5.4 (548)
+> Tested on 1.5.5 (552)
 
 1. Clone the project
 2. Run `pod install` in the project folder
