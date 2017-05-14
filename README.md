@@ -17,5 +17,8 @@ A plugin for Netease Music macOS client which forward dead music request to [Unb
 5. Build and run.
 6. Have fun!
 
+# Thanks
+The hijack.m is almost a copy from [Typcn](https://github.com/typcn/163music-mac-client-unlock/blob/master/hijack.m).
+
 # Licence
 GPLv3
