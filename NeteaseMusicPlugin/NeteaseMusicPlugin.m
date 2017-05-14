@@ -23,7 +23,6 @@ NSString *apiServer = @"http://127.0.0.1:8123";
     
     dispatch_once(&onceToken, ^{
         hookClassMethod(objc_getClass("CloudMusicCoSDK"), @selector(decryptData:), [self class], @selector(hook_decryptData:));
-//        hookClassMethod(objc_getClass("CloudMusicCoSDK"), @selector(generateSerial:jsonString:), [self class], @selector(hook_generateSerial:jsonString:));
     });
 }
 
@@ -71,12 +70,6 @@ NSString *apiServer = @"http://127.0.0.1:8123";
     }
     
     return content;
-}
-
-- (NSString *)hook_generateSerial:(NSString *)url jsonString:(NSString *)json {
-    NSLog(@"\n=== hook_generateSerial %@ ===", url);
-    //    NSLog(@"\n=== content %@", json);
-    return [self hook_generateSerial:url jsonString:json];
 }
 
 @end
