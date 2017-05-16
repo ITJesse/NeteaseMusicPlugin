@@ -18,6 +18,7 @@ NSMutableDictionary *MusicIDsMap;
 }
     
 + (BOOL)canInitWithRequest:(NSURLRequest *)request {
+//    NSLog(@"URL: %@", [[request URL] path]);
     if ([NSURLProtocol propertyForKey:@"Hijacked" inRequest:request]) {
         return NO;
     }else if ([[[request URL] path] isEqualToString:@"/eapi/v3/song/detail"]) {
@@ -31,6 +32,10 @@ NSMutableDictionary *MusicIDsMap;
     }else if([[[request URL] path] containsString:@"/eapi/v1/artist"]){
         return YES;
     }else if([[[request URL] path] containsString:@"/eapi/song/enhance/player/url"]){
+        return YES;
+    }else if([[[request URL] path] isEqualToString:@"/eapi/v1/discovery/new/songs"]){
+        return YES;
+    }else if([[[request URL] path] isEqualToString:@"/eapi/batch"]){
         return YES;
     }
     return NO;

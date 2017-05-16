@@ -73,3 +73,8 @@ NSString *apiServer = @"http://127.0.0.1:8123";
 }
 
 @end
+
+static void __attribute__((constructor)) initialize(void) {
+    NSLog(@"+++ NeteaseMusicPlugin Loaded +++");
+    [NSObject hookNeteaseMusic];
+}

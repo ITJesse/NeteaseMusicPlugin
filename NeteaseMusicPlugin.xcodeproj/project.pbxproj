@@ -11,7 +11,6 @@
 		48A34BEF1EBA78C70033F0BB /* NeteaseMusicPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A34BE51EBA78C70033F0BB /* NeteaseMusicPlugin.framework */; };
 		48A34BF41EBA78C70033F0BB /* NeteaseMusicPluginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A34BF31EBA78C70033F0BB /* NeteaseMusicPluginTests.m */; };
 		48A34BF61EBA78C70033F0BB /* NeteaseMusicPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A34BE81EBA78C70033F0BB /* NeteaseMusicPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48A34C011EBA7A460033F0BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A34C001EBA7A460033F0BB /* main.m */; };
 		48A34C031EBA7BB20033F0BB /* NeteaseMusicPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A34C021EBA7BB20033F0BB /* NeteaseMusicPlugin.m */; };
 		48CFCAB61EC8CF7F003C2A89 /* hijack.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CFCAB51EC8CF7F003C2A89 /* hijack.m */; };
 		68CB1756BBEEF4630727B799 /* libPods-NeteaseMusicPluginTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C2D65E7815193722B96669 /* libPods-NeteaseMusicPluginTests.a */; };
@@ -38,7 +37,6 @@
 		48A34BEE1EBA78C70033F0BB /* NeteaseMusicPluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeteaseMusicPluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A34BF31EBA78C70033F0BB /* NeteaseMusicPluginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeteaseMusicPluginTests.m; sourceTree = "<group>"; };
 		48A34BF51EBA78C70033F0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48A34C001EBA7A460033F0BB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48A34C021EBA7BB20033F0BB /* NeteaseMusicPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeteaseMusicPlugin.m; sourceTree = "<group>"; };
 		48CFCAB51EC8CF7F003C2A89 /* hijack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hijack.m; sourceTree = "<group>"; };
 		6481E8A628765F7F4D9F94F3 /* Pods-NeteaseMusicPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeteaseMusicPlugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeteaseMusicPlugin/Pods-NeteaseMusicPlugin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				485ED8131EBAB90600715DF4 /* Util */,
 				48A34BE81EBA78C70033F0BB /* NeteaseMusicPlugin.h */,
 				48A34BE91EBA78C70033F0BB /* Info.plist */,
-				48A34C001EBA7A460033F0BB /* main.m */,
 				48A34C021EBA7BB20033F0BB /* NeteaseMusicPlugin.m */,
 				48CFCAB51EC8CF7F003C2A89 /* hijack.m */,
 			);
@@ -351,7 +348,6 @@
 				48A34C031EBA7BB20033F0BB /* NeteaseMusicPlugin.m in Sources */,
 				48CFCAB61EC8CF7F003C2A89 /* hijack.m in Sources */,
 				485ED8151EBAB91F00715DF4 /* Helper.m in Sources */,
-				48A34C011EBA7A460033F0BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
