@@ -18,7 +18,7 @@ NSMutableDictionary *MusicIDsMap;
 }
     
 + (BOOL)canInitWithRequest:(NSURLRequest *)request {
-//    NSLog(@"URL: %@", [[request URL] path]);
+    NSLog(@"URL: %@", [[request URL] path]);
     if ([NSURLProtocol propertyForKey:@"Hijacked" inRequest:request]) {
         return NO;
     }else if ([[[request URL] path] isEqualToString:@"/eapi/v3/song/detail"]) {
@@ -34,6 +34,8 @@ NSMutableDictionary *MusicIDsMap;
     }else if([[[request URL] path] containsString:@"/eapi/song/enhance/player/url"]){
         return YES;
     }else if([[[request URL] path] isEqualToString:@"/eapi/v1/discovery/new/songs"]){
+        return YES;
+    }else if([[[request URL] path] isEqualToString:@"/eapi/v1/discovery/recommend/songs"]){
         return YES;
     }else if([[[request URL] path] isEqualToString:@"/eapi/batch"]){
         return YES;
@@ -53,7 +55,6 @@ NSMutableDictionary *MusicIDsMap;
     NSMutableURLRequest *newRequest = [self.request mutableCopy];
     NSString* ip = [NSString stringWithFormat:@"202.114.79.%d", (arc4random() % 255) + 1];
     [newRequest addValue:ip forHTTPHeaderField:@"X-Real-IP"];
-//    [newRequest setValue:@"" forHTTPHeaderField:@"Accept-Encoding"];
     [NSURLProtocol setProperty:@YES forKey:@"Hijacked" inRequest:newRequest];
     self.connection = [NSURLConnection connectionWithRequest:newRequest delegate:self];
 }
