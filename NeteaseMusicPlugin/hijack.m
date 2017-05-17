@@ -39,6 +39,8 @@ NSMutableDictionary *MusicIDsMap;
         return YES;
     }else if([[[request URL] path] isEqualToString:@"/eapi/batch"]){
         return YES;
+    }else if([[[request URL] path] isEqualToString:@"/eapi/v1/radio/get"]){
+        return YES;
     }
     return NO;
 }
