@@ -23,11 +23,6 @@ FOUNDATION_EXPORT const unsigned char NeteaseMusicPluginVersionString[];
 + (void)hookNeteaseMusic;
 @end
 
-@interface ComNeteaseCloudMusicCoSDKNTESJson : NSObject
-+ (id)ntes_jsonDataWithUTF8:(id)arg1;
-+ (id)ntes_jsonObjectWithUTF8:(id)arg1;
-@end
-
 @interface SongModel : JSONModel
 @property (nonatomic) NSInteger id;
 @property (nonatomic) NSInteger code;
@@ -47,5 +42,10 @@ FOUNDATION_EXPORT const unsigned char NeteaseMusicPluginVersionString[];
 @interface ResModel : JSONModel
 @property (nonatomic) NSInteger code;
 @property (nonatomic) NSArray<SongModel *> *data;
+@end
+
+@interface DownloadModel : JSONModel
+@property (nonatomic) NSInteger code;
+@property (nonatomic) SongModel *data;
 @end
 

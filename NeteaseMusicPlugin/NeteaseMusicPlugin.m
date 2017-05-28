@@ -8,12 +8,15 @@
 
 #import <NeteaseMusicPlugin.h>
 
-NSString *apiServer = @"http://127.0.0.1:8123";
+NSString *apiServer = @"http://nas.itjesse.com:8123";
 
 @implementation SongModel
 @end
 
 @implementation ResModel
+@end
+
+@implementation DownloadModel
 @end
 
 @implementation NSObject (NeteaseMusicHook)
@@ -29,25 +32,45 @@ NSString *apiServer = @"http://127.0.0.1:8123";
 - (NSString *)hook_decryptData:(id)data {
     NSLog(@"\n=== hook_decryptData ===");
     NSString *content = [self hook_decryptData:data];
+    NSLog(@"\n%@", content);
     
     NSError *error = nil;
     ResModel *res = [[ResModel alloc] initWithString:content error:&error];
+    SongModel* song = nil;
     if (error) {
         NSLog(@"Cannot parse JSON: %@", error);
-        return content;
+        error = nil;
+        DownloadModel *res = [[DownloadModel alloc] initWithString:content error:&error];
+        if (error) {
+            NSLog(@"Cannot parse JSON: %@", error);
+            return content;
+        }
+        song = [res data];
     }
-    NSArray *songArr = [SongModel arrayOfModelsFromDictionaries:[res data] error:&error];
-    if (error) {
-        NSLog(@"Cannot parse JSON: %@", error);
-        return content;
-    }
-    NSLog(@"\n%@", songArr[0]);
     
-    if ([songArr[0] code] != 200) {
+    NSArray* songArr = nil;
+    if (!song) {
+        songArr = [SongModel arrayOfModelsFromDictionaries:[res data] error:&error];
+        if (error) {
+            NSLog(@"Cannot parse JSON: %@", error);
+            return content;
+        }
+        song = songArr[0];
+    }
+    
+    
+    NSLog(@"\n%@", song);
+    
+    if ([song code] != 200) {
         NSLog(@"\nSong is null, send to api server");
-        NSString *urlStr = [NSString stringWithFormat:@"%@/api/plugin", apiServer];
+        NSString *urlStr;
+        if (songArr) {
+            urlStr = [NSString stringWithFormat:@"%@/api/plugin/player", apiServer];
+        } else {
+            urlStr = [NSString stringWithFormat:@"%@/api/plugin/download", apiServer];
+        }
         NSURL *url = [[NSURL alloc] initWithString:urlStr];
-        NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:15];
+        NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:30];
         [request setHTTPMethod:@"POST"];
         NSData *data = [content dataUsingEncoding:NSUTF8StringEncoding];
         [request setHTTPBody:data];

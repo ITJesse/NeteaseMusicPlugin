@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NeteaseMusicPlugin/NeteaseMusicPlugin.m"
-            timestampString = "516476857.140225"
+            timestampString = "517696632.812424"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
             landmarkName = "-hook_decryptData:"
             landmarkType = "7">
          </BreakpointContent>
