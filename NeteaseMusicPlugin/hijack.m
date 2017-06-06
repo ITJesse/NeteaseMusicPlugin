@@ -33,6 +33,8 @@ NSMutableDictionary *MusicIDsMap;
         return YES;
     }else if([[[request URL] path] containsString:@"/eapi/song/enhance/player/url"]){
         return YES;
+    }else if([[[request URL] path] isEqualToString:@"/eapi/song/enhance/download/url"]){
+        return YES;
     }else if([[[request URL] path] isEqualToString:@"/eapi/v1/discovery/new/songs"]){
         return YES;
     }else if([[[request URL] path] isEqualToString:@"/eapi/v1/discovery/recommend/songs"]){
@@ -42,6 +44,7 @@ NSMutableDictionary *MusicIDsMap;
     }else if([[[request URL] path] isEqualToString:@"/eapi/v1/radio/get"]){
         return YES;
     }
+    
     return NO;
 }
     
