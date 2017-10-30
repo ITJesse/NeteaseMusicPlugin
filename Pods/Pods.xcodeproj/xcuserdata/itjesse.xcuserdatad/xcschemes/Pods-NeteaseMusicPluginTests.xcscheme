@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A72C9C68877B4901169B06AAE7E94E77'
+               BlueprintIdentifier = '03E7FC9CB566FF5BFF88897893506209'
                BlueprintName = 'Pods-NeteaseMusicPluginTests'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-NeteaseMusicPluginTests.a'>

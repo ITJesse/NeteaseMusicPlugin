@@ -12,10 +12,8 @@
 		111EFF7247B40E7831D9E203325CFD0B /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF00A6FCE8DB90D8033C342CC0EF6 /* JSONAPI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		185FCA62893003987C1B8B913368C45F /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6544340A991ED4E42B2BB98605F124 /* JSONModelClassProperty.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		187D5CE930EF2A8728DECAD8423F4D1F /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BCCBB80E8097D3CD168B046FC169599 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AB86654BCB56E15CCAD95796314A8B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
 		68BACA6316F0C05E8B81FA5676A54C40 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9493CA809C5F60B0B1FF64DD97070AF6 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71618DAE964B30615041D2F46DFF417F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
-		760EF68748B1B9AE9910BF913D705A09 /* Pods-NeteaseMusicPluginTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F4BBB4FDB294527970461173D752CA /* Pods-NeteaseMusicPluginTests-dummy.m */; };
 		80EF696ABAAF8B86936411BA92864FA5 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EC04C1106B58177E355DD8EA5A740A63 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84159E7557161974DBC462DBBBE48343 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EADD9BCA33A9BFD97475DD6CFB06BB46 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89FDA19DEC265FEFC5DC0FC36C932524 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2037A1261A0C1B90D8359533DB650401 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,15 +23,24 @@
 		AE56642F028C61D89E81663C5B926DB6 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F569C295F1F60F14E58856377D30C710 /* JSONModel-dummy.m */; };
 		B04A1902553AD38592F34E2D6C9D2A63 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C78AD07A1A95478FAF6AEF82C15369E0 /* JSONHTTPClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C6CE1C2D529BE7766AFAC590E98950EF /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AA8C7B63C053A16D234F418AF1C4CD /* JSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D256C27FC975AFE7D239562B55BB2DC2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
 		E275964D341E85401C5145035D3A41A7 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 218EAAE054483C56CA608FD5BC6ED747 /* JSONValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E3DEE34EC045CF27F0807171C13AE37B /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 641585DE4DB8BF834C3D6BA5AA1245D5 /* JSONKeyMapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E5D1AFB5E8012A9BBFE8B8C76E324E32 /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = C9515A046AFAC6B1F10B1A43B83BEA7E /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F26A848E1957D9D66191CAFEFC11BBD6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
 		F673B9F19CCEDF9DDA79226CFA40199A /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = E60042B4DBC7191217F26C3D3A2509D1 /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA56603A846DD70E9ED32836D7964230 /* Pods-NeteaseMusicPluginTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F4BBB4FDB294527970461173D752CA /* Pods-NeteaseMusicPluginTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		7EC3D4EB252A45E8070CAC487EEC9241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E3CFFEDC2629EE0C17B343EC00595B;
+			remoteInfo = JSONModel;
+		};
+		886A843652D32D67ADFA50DE88611225 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -84,19 +91,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		235438B98C1B57BD4EBB5DED6FC11CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D256C27FC975AFE7D239562B55BB2DC2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DD37312FB4EE7D76A7E0B8B7D80D2E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F26A848E1957D9D66191CAFEFC11BBD6 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		557DFAEC4CD2A2A674F27D0EBCF9C573 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AB86654BCB56E15CCAD95796314A8B1 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +260,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		03E7FC9CB566FF5BFF88897893506209 /* Pods-NeteaseMusicPluginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11C073A681E0F3AC5BD28F44F3C5175 /* Build configuration list for PBXNativeTarget "Pods-NeteaseMusicPluginTests" */;
+			buildPhases = (
+				7658DD3C55ECD2BDA95682B27E038889 /* Sources */,
+				235438B98C1B57BD4EBB5DED6FC11CAC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEEED322CCBD268DA787624C7843BBEB /* PBXTargetDependency */,
+			);
+			name = "Pods-NeteaseMusicPluginTests";
+			productName = "Pods-NeteaseMusicPluginTests";
+			productReference = FBADC571FA02F0B75449A690C40C9684 /* libPods-NeteaseMusicPluginTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		2CF50A82457E8F93EA8519A9CD275BF3 /* Pods-NeteaseMusicPlugin */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27D18C210A0812201F069BD11C9BDDB7 /* Build configuration list for PBXNativeTarget "Pods-NeteaseMusicPlugin" */;
@@ -287,29 +311,13 @@
 			productReference = D7CF2CD20A341585C6CC888960F24374 /* libJSONModel.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A72C9C68877B4901169B06AAE7E94E77 /* Pods-NeteaseMusicPluginTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 56CF279CCF5FB4ED429A2F1902F83EB5 /* Build configuration list for PBXNativeTarget "Pods-NeteaseMusicPluginTests" */;
-			buildPhases = (
-				AAACE47162ED527CA8D377449A6027A0 /* Sources */,
-				557DFAEC4CD2A2A674F27D0EBCF9C573 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-NeteaseMusicPluginTests";
-			productName = "Pods-NeteaseMusicPluginTests";
-			productReference = FBADC571FA02F0B75449A690C40C9684 /* libPods-NeteaseMusicPluginTests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -326,7 +334,7 @@
 			targets = (
 				55E3CFFEDC2629EE0C17B343EC00595B /* JSONModel */,
 				2CF50A82457E8F93EA8519A9CD275BF3 /* Pods-NeteaseMusicPlugin */,
-				A72C9C68877B4901169B06AAE7E94E77 /* Pods-NeteaseMusicPluginTests */,
+				03E7FC9CB566FF5BFF88897893506209 /* Pods-NeteaseMusicPluginTests */,
 			);
 		};
 /* End PBXProject section */
@@ -340,11 +348,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAACE47162ED527CA8D377449A6027A0 /* Sources */ = {
+		7658DD3C55ECD2BDA95682B27E038889 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				760EF68748B1B9AE9910BF913D705A09 /* Pods-NeteaseMusicPluginTests-dummy.m in Sources */,
+				FA56603A846DD70E9ED32836D7964230 /* Pods-NeteaseMusicPluginTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,12 +381,18 @@
 			target = 55E3CFFEDC2629EE0C17B343EC00595B /* JSONModel */;
 			targetProxy = 7EC3D4EB252A45E8070CAC487EEC9241 /* PBXContainerItemProxy */;
 		};
+		FEEED322CCBD268DA787624C7843BBEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = 55E3CFFEDC2629EE0C17B343EC00595B /* JSONModel */;
+			targetProxy = 886A843652D32D67ADFA50DE88611225 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		32BAD07D747819A4495E6BB506EA6BBF /* Release */ = {
+		1C19CB15D71AF4E9912A5397CAB75E9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5986AFF0B6FFCDA0E6C3E054C06A9FEB /* JSONModel.xcconfig */;
+			baseConfigurationReference = 8AEEEF67F9BAA1A47E89C77BFCB6872E /* Pods-NeteaseMusicPluginTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -388,61 +402,18 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
-		};
-		34342BBF37D3A9ED85FF2EB654934920 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
 		};
 		36BD458ABE6F8CA61F72BCEC15D48293 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -469,9 +440,9 @@
 			};
 			name = Debug;
 		};
-		5AABF6EA940A8419A461920888B752AB /* Release */ = {
+		38CD64852E261255977600E898215636 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AEEEF67F9BAA1A47E89C77BFCB6872E /* Pods-NeteaseMusicPluginTests.release.xcconfig */;
+			baseConfigurationReference = 5986AFF0B6FFCDA0E6C3E054C06A9FEB /* JSONModel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -481,18 +452,43 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
 				GCC_NO_COMMON_BLOCKS = YES;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 			};
 			name = Release;
+		};
+		5694AF51C39FEC068BE04E93475DAA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5986AFF0B6FFCDA0E6C3E054C06A9FEB /* JSONModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
 		};
 		86AA3BD448C9B66A855B6B7AD0607ACA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -519,7 +515,7 @@
 			};
 			name = Release;
 		};
-		A109D55AA302374C7B29DC797767634F /* Debug */ = {
+		BF9DE7532074BB5076C03C9F7FBD87FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6076F051D6369F7E7745FA4C7E73EE47 /* Pods-NeteaseMusicPluginTests.debug.xcconfig */;
 			buildSettings = {
@@ -544,35 +540,12 @@
 			};
 			name = Debug;
 		};
-		E0B4D970FD318A52BBB272ABBCA78E8F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5986AFF0B6FFCDA0E6C3E054C06A9FEB /* JSONModel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		F6FC88CB717F413199C282718D2DC09F /* Release */ = {
+		C734A39EF0A2FD4BDDD7FE07639BA9C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -580,10 +553,62 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FC4738C3605827B2CD972C349A860865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -614,8 +639,8 @@
 		15D5BC679A0719D83212904869EFF97E /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0B4D970FD318A52BBB272ABBCA78E8F /* Debug */,
-				32BAD07D747819A4495E6BB506EA6BBF /* Release */,
+				5694AF51C39FEC068BE04E93475DAA0C /* Debug */,
+				38CD64852E261255977600E898215636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -632,17 +657,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34342BBF37D3A9ED85FF2EB654934920 /* Debug */,
-				F6FC88CB717F413199C282718D2DC09F /* Release */,
+				C734A39EF0A2FD4BDDD7FE07639BA9C0 /* Debug */,
+				FC4738C3605827B2CD972C349A860865 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56CF279CCF5FB4ED429A2F1902F83EB5 /* Build configuration list for PBXNativeTarget "Pods-NeteaseMusicPluginTests" */ = {
+		B11C073A681E0F3AC5BD28F44F3C5175 /* Build configuration list for PBXNativeTarget "Pods-NeteaseMusicPluginTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A109D55AA302374C7B29DC797767634F /* Debug */,
-				5AABF6EA940A8419A461920888B752AB /* Release */,
+				BF9DE7532074BB5076C03C9F7FBD87FD /* Debug */,
+				1C19CB15D71AF4E9912A5397CAB75E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

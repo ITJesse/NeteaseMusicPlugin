@@ -8,7 +8,7 @@
 
 #import <NeteaseMusicPlugin.h>
 
-NSString *apiServer = @"http://nas.itjesse.com:8123";
+NSString *apiServer = @"http://localhost:8123";
 
 @implementation SongModel
 @end
@@ -74,9 +74,27 @@ NSString *apiServer = @"http://nas.itjesse.com:8123";
         [request setHTTPMethod:@"POST"];
         NSData *data = [content dataUsingEncoding:NSUTF8StringEncoding];
         [request setHTTPBody:data];
-        NSURLResponse *response;
-        NSError *error;
-        NSData *result = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+        
+//        NSData *result = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+        
+        __block NSData *result;
+        __block NSURLResponse *response;
+        __block NSError *error;
+        dispatch_semaphore_t sem = dispatch_semaphore_create(0);
+        
+        NSURLSession *session = [NSURLSession sharedSession];
+        NSURLSessionTask *task = [session dataTaskWithRequest:request
+                                            completionHandler:^(NSData *_data, NSURLResponse *_response, NSError *_error) {
+                                                result = _data;
+                                                error = _error;
+                                                response = _response;
+                                                dispatch_semaphore_signal(sem);
+                                            }];
+        [task resume];
+        
+        dispatch_time_t  t = dispatch_time(DISPATCH_TIME_NOW, 15 * NSEC_PER_SEC);
+        dispatch_semaphore_wait(sem, t);
+        
         NSString *resultStr = [[NSString alloc] initWithData:result encoding:NSUTF8StringEncoding];
         NSString *errorDesc = [error localizedDescription];
 
